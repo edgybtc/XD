@@ -17,9 +17,9 @@ if (!$me['bot']) {
   
 
     try {
-          $MadelineProto->messages->sendMessage(['peer' => '@subex', 'message' => "love you! <3"]);
+          $MadelineProto->messages->sendMessage(['peer' => '@subex', 'message' => "ruu baka hai"]);
     } catch (\danog\MadelineProto\RPCErrorException $e) {
     }
 
-    
+}    
 echo 'OK, done!'.PHP_EOL;
